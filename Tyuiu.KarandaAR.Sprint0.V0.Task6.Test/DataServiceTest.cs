@@ -16,14 +16,14 @@ namespace Tyuiu.KarandaAR.Sprint0.V0.Task6.Test
         public void CheckSubstractionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.SubstrationArray(numbers);
+            var res = DataService.SubtrationArray(numbers);
             Assert.AreEqual(-15, res);
         }
         [TestMethod]
         public void CheckMultArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
-            var res = DataService.AdditionArray(numbers);
+            var res = DataService.MultiplicationArray(numbers);
             Assert.AreEqual(120, res);
         }
     }

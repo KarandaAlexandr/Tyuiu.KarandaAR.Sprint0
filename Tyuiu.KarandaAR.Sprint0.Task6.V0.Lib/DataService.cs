@@ -7,11 +7,12 @@
             var total = 0;
             for (var i = 0; i < numbers.Length; i++)
             {
-                total = total + numbers[i];
+                total += numbers[i];
             }
             return total;
         }
-        public static object SubstrationArray(int[] numbers)
+
+        public static object SubtrationArray(int[] numbers)
         {
             var total = 0;
             int index = 0;
@@ -23,11 +24,11 @@
             }
             return total;
         }
+
         public static object MultiplicationArray(int[] numbers)
         {
             var total = 1;
             int index = 0;
-
             do
             {
                 total = total * numbers[index];
