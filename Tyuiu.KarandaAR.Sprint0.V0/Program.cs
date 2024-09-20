@@ -40,6 +40,7 @@ namespace Tyuiu.KarandaAR.Sprint0.Task7.V0
                 Console.Write(arrayNums2[i] + ", ");
             }
 
+
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
